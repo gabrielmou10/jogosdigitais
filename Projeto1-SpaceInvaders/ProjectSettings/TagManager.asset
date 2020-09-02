@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Alien
   - Base
+  - TiroAlien
   layers:
   - Default
   - TransparentFX

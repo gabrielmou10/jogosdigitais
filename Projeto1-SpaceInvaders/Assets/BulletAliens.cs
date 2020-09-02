@@ -6,7 +6,6 @@ public class BulletAliens : MonoBehaviour
 {
 
     public float speed = 5.0f;
-    private int n;
 
     // Update is called once per frame
     void Update()
@@ -30,12 +29,6 @@ public class BulletAliens : MonoBehaviour
         if (collision.tag == "Base")
         {
             Destroy(gameObject);
-
-            n = n + 1;
-            if (n >= 2)
-            {
-                Destroy(collision.gameObject);
-            }
         }
     }
 }

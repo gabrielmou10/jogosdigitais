@@ -45,13 +45,5 @@ public class Aliens : MonoBehaviour
         }
     }
 
-    private void OnTriggerEnter2D(Collider2D collision)
-    {
-        if (collision.tag == "Base")
-        {
-            Destroy(collision.gameObject);
-        }
-
-    }
 
 }

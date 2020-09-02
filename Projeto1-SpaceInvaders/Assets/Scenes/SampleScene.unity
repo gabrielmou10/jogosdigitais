@@ -386,7 +386,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &164219006
 RectTransform:
   m_ObjectHideFlags: 0
@@ -784,6 +784,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1607631002}
     m_Modifications:
+    - target: {fileID: 61182925667295890, guid: 8e8c64ad8ed70451f93c99726cd87802,
+        type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2251483527310282873, guid: 8e8c64ad8ed70451f93c99726cd87802,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -956,6 +961,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1607631002}
     m_Modifications:
+    - target: {fileID: 61182925667295890, guid: 8e8c64ad8ed70451f93c99726cd87802,
+        type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2251483527310282873, guid: 8e8c64ad8ed70451f93c99726cd87802,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1029,14 +1039,13 @@ GameObject:
   - component: {fileID: 976052773}
   - component: {fileID: 976052775}
   - component: {fileID: 976052774}
-  - component: {fileID: 976052776}
   m_Layer: 5
   m_Name: Score
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &976052773
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1096,18 +1105,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 976052772}
   m_CullTransparentMesh: 0
---- !u!114 &976052776
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 976052772}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2a644255324bf4e10a6bff4cb7b0730f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1001 &1025855965
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1468,6 +1465,11 @@ PrefabInstance:
       propertyPath: m_Size.x
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 61182925667295890, guid: 8e8c64ad8ed70451f93c99726cd87802,
+        type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2251483527310282873, guid: 8e8c64ad8ed70451f93c99726cd87802,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1542,12 +1544,12 @@ GameObject:
   - component: {fileID: 1197983799}
   - component: {fileID: 1197983798}
   m_Layer: 5
-  m_Name: WIN
+  m_Name: Win
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1197983797
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1843,7 +1845,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1560527989
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1916,7 +1918,7 @@ GameObject:
   - component: {fileID: 1607631002}
   m_Layer: 0
   m_Name: Base
-  m_TagString: Untagged
+  m_TagString: Base
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2044,6 +2046,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1607631002}
     m_Modifications:
+    - target: {fileID: 61182925667295890, guid: 8e8c64ad8ed70451f93c99726cd87802,
+        type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2251483527310282873, guid: 8e8c64ad8ed70451f93c99726cd87802,
         type: 3}
       propertyPath: m_LocalPosition.x
