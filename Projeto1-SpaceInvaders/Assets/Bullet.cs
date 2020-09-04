@@ -25,6 +25,7 @@ public class Bullet : MonoBehaviour
 
             Destroy(collision.gameObject);
             Destroy(gameObject);
+            GameManager.score += 10;
             AudioSource.PlayClipAtPoint(AlienDestroy, transform.position);
         }
         if (collision.tag == "Base")
