@@ -5,7 +5,7 @@
       <File FileName="Assets/BulletAliens.cs" />
       <File FileName="Assets/Bullet.cs" />
       <File FileName="Assets/Base.cs" />
-      <File FileName="Assets/Aliens.cs" Line="44" Column="26" />
+      <File FileName="Assets/Aliens.cs" Line="46" Column="28" />
       <File FileName="Assets/player.cs" />
       <File FileName="Assets/Scenes/MainMenu.cs" />
       <File FileName="Assets/GameManager.cs" />
