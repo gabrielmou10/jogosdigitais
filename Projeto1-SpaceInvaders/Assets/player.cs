@@ -8,6 +8,7 @@ public class player : MonoBehaviour
     private float bound = 8;
 
     public GameObject bullet;
+    public AudioSource Laser;
 
     public float wait = 0.3f;
     private float timer = 0;
@@ -27,6 +28,7 @@ public class player : MonoBehaviour
         {
             timer = 0;
             Instantiate(bullet, gameObject.transform.position, Quaternion.identity);
+            Laser.Play();
         }
 
     }

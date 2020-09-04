@@ -6,6 +6,7 @@ public class Bullet : MonoBehaviour
 {
 
     public float speed = 5.0f;
+    public AudioClip AlienDestroy;
 
     void Update()
     {
@@ -21,8 +22,10 @@ public class Bullet : MonoBehaviour
     {
         if (collision.tag == "Alien")
         {
+
             Destroy(collision.gameObject);
             Destroy(gameObject);
+            AudioSource.PlayClipAtPoint(AlienDestroy, transform.position);
         }
         if (collision.tag == "Base")
         {

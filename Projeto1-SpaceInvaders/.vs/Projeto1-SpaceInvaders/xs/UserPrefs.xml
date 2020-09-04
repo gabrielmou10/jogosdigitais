@@ -3,15 +3,18 @@
     <Files>
       <File FileName="Assets/Victory.cs" Line="18" Column="10" />
       <File FileName="Assets/BulletAliens.cs" Line="32" Column="10" />
-      <File FileName="Assets/Bullet.cs" Line="1" Column="1" />
-      <File FileName="Assets/Base.cs" Line="8" Column="1" />
-      <File FileName="Assets/Aliens.cs" Line="47" Column="1" />
+      <File FileName="Assets/Bullet.cs" Line="9" Column="30" />
+      <File FileName="Assets/Base.cs" />
+      <File FileName="Assets/Aliens.cs" Line="53" Column="33" />
+      <File FileName="Assets/player.cs" Line="31" Column="26" />
+      <File FileName="Assets/Scenes/MainMenu.cs" Line="10" Column="78" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="Projeto1-SpaceInvaders" expanded="True">
             <Node name="Assets" expanded="True">
+              <Node name="Scenes" expanded="True" />
               <Node name="Bullet.cs" selected="True" />
             </Node>
           </Node>
@@ -26,7 +29,7 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="1df11672-101a-4473-b1da-ff268399a2b7" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="a1c07f97-a98a-4ad9-9aea-4259ffa231b8" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
