@@ -303,7 +303,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 4, y: 6}
+  m_Size: {x: 3, y: 6}
   m_EdgeRadius: 0
 --- !u!82 &38328196
 AudioSource:
@@ -461,6 +461,8 @@ MonoBehaviour:
   speed: 0.5
   wait: 0.4
   bullet: {fileID: 7111139352587277755, guid: 88a8c09b849f84a56a370c2fbc7a7329, type: 3}
+  bulletespecial: {fileID: 7111139352587277755, guid: 4e5428fd1ea6d421a9928780a69522c3,
+    type: 3}
 --- !u!4 &155832011 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4282831628153564100, guid: 75937ea2d6ca447bca32d56bb7643a24,
@@ -1012,6 +1014,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   texto_vidas: {fileID: 1670469778}
   texto_score: {fileID: 850433120}
+  high_score: {fileID: 0}
 --- !u!114 &850433120
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1255,6 +1258,11 @@ PrefabInstance:
       propertyPath: m_IsTrigger
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 114009768899215510, guid: 8e8c64ad8ed70451f93c99726cd87802,
+        type: 3}
+      propertyPath: BaseDestroy
+      value: 
+      objectReference: {fileID: 8300000, guid: d47d351283bf846fc993d13f08841594, type: 3}
     - target: {fileID: 2251483527310282873, guid: 8e8c64ad8ed70451f93c99726cd87802,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2380,6 +2388,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   texto_vidas: {fileID: 1670469778}
   texto_score: {fileID: 850433120}
+  high_score: {fileID: 0}
 --- !u!114 &1670469778
 MonoBehaviour:
   m_ObjectHideFlags: 0

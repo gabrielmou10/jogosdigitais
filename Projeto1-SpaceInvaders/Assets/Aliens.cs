@@ -8,6 +8,9 @@ public class Aliens : MonoBehaviour
     public float wait = 0.4f;
     private bool invert = false;
     public GameObject bullet;
+    public GameObject bulletespecial;
+
+    private int n = 0;
 
     void Start()
     {
@@ -36,10 +39,21 @@ public class Aliens : MonoBehaviour
                 invert = true;
                 break;
             }
-
             if (Random.value < 0.02f)
             {
-                Instantiate(bullet, alien.position, alien.rotation);
+                if (n < 5)
+                {
+                    n = n + 1;
+                    Instantiate(bullet, alien.position, alien.rotation);
+                }
+                
+                if (n == 5)
+                {
+                    Instantiate(bulletespecial, alien.position, alien.rotation);
+                    n = 0;
+                }
+                print(n);
+              
             }
 
         }
@@ -48,6 +62,16 @@ public class Aliens : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.tag == "TiroPlayer")
+        {
+            Destroy(collision.gameObject);
+            Destroy(gameObject);
+        }
+        if (collision.tag == "Base")
+        {
+            Destroy(collision.gameObject);
+            Destroy(gameObject);
+        }
+        if (collision.tag == "Nave")
         {
             Destroy(collision.gameObject);
             Destroy(gameObject);
