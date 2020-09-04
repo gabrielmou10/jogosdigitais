@@ -22,8 +22,13 @@ public class BulletAliens : MonoBehaviour
     {
         if (collision.tag == "Player")
         {
-            Destroy(collision.gameObject);
             Destroy(gameObject);
+            GameManager.vidas -= 1;
+            if(GameManager.vidas == 0)
+            {
+                Destroy(collision.gameObject);
+
+            }
         }
 
         if (collision.tag == "Base")
