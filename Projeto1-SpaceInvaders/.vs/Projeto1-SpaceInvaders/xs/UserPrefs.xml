@@ -1,12 +1,12 @@
 ﻿<Properties StartupConfiguration="{12FE3CFD-DA8E-4E89-995B-6C8A45D2D89A}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Bullet.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Base.cs">
     <Files>
-      <File FileName="Assets/Victory.cs" Line="18" Column="10" />
-      <File FileName="Assets/BulletAliens.cs" Line="32" Column="10" />
+      <File FileName="Assets/Victory.cs" Line="14" Column="13" />
+      <File FileName="Assets/BulletAliens.cs" Line="24" Column="10" />
       <File FileName="Assets/Bullet.cs" Line="9" Column="30" />
-      <File FileName="Assets/Base.cs" />
+      <File FileName="Assets/Base.cs" Line="8" Column="27" />
       <File FileName="Assets/Aliens.cs" Line="53" Column="33" />
-      <File FileName="Assets/player.cs" Line="31" Column="26" />
+      <File FileName="Assets/player.cs" Line="34" Column="1" />
       <File FileName="Assets/Scenes/MainMenu.cs" Line="10" Column="78" />
     </Files>
     <Pads>
@@ -15,21 +15,16 @@
           <Node name="Projeto1-SpaceInvaders" expanded="True">
             <Node name="Assets" expanded="True">
               <Node name="Scenes" expanded="True" />
-              <Node name="Bullet.cs" selected="True" />
+              <Node name="Base.cs" selected="True" />
             </Node>
           </Node>
-        </State>
-      </Pad>
-      <Pad Id="MonoDevelop.UnitTesting.TestPad">
-        <State name="__root__">
-          <Node name="Projeto1-SpaceInvaders" expanded="True" selected="True" />
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="a1c07f97-a98a-4ad9-9aea-4259ffa231b8" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="d2445e70-a2dd-4737-a343-e3acf8f1ad5e" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>

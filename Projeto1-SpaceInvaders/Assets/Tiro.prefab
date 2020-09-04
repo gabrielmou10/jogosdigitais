@@ -142,3 +142,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 5
+  AlienDestroy: {fileID: 8300000, guid: b8282bb9a13ce47a792835c9ef29bc70, type: 3}

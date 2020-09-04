@@ -5,6 +5,7 @@ using UnityEngine;
 public class Base : MonoBehaviour
 {
     private int n = 0;
+    public AudioClip BaseDestroy;
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
@@ -19,6 +20,7 @@ public class Base : MonoBehaviour
             if (n >= 3)
             {
                 Destroy(gameObject);
+                AudioSource.PlayClipAtPoint(BaseDestroy, transform.position);
             }
 
 

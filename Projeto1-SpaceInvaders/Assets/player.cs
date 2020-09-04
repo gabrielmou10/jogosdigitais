@@ -24,7 +24,7 @@ public class player : MonoBehaviour
         }
 
         timer += Time.deltaTime;
-        if (timer > wait && Input.GetButton("Fire1"))
+        if (timer > wait && Input.GetButton("Jump"))
         {
             timer = 0;
             Instantiate(bullet, gameObject.transform.position, Quaternion.identity);
