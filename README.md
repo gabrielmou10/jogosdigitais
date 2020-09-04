@@ -19,5 +19,7 @@ Funcionalidades Extras:
 10- Tiro do alien e do jogador que colidirem se anulam
 11 - Alien destroi a base toca nela
 12 - Alien destroi a nave se toca nela
-13 - Tiro do Alien ESPECIAL (A cada 5 tiros, o Alien da um tiro especial, de outra cor, mais rápido, que tira duas vidas).
+13 - Tiro do Alien ESPECIAL de outra cor (a cada 5 tiros, 1 tiro especial).
+14 - Tiro do Alien ESPECIAL mais rápido que o normal.
+15 - Tiro do Alien ESPECIAL tira duas vidas.
 
