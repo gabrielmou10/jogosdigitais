@@ -7,7 +7,7 @@ PROJETO 1 :
 Equipe: Gabriel Moura e Guilherme Aliperti
 
 Funcionalidades Extras:
-1- Base destroi após 3 tiros dos aliens
+1- Base destroi após 3 tiros dos aliens \n
 2- Efeito Sonoro tiro da nave
 3- Musica de fundo
 4- Menu inicial
