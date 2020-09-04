@@ -32,6 +32,12 @@ public class Bullet : MonoBehaviour
             Destroy(gameObject);
         }
 
+        if (collision.tag == "TiroAlien")
+        {
+            Destroy(collision.gameObject);
+            Destroy(gameObject);
+        }
+
     }
 
 }
